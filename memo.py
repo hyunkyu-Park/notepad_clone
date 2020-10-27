@@ -32,10 +32,10 @@ menu_file.add_command(label = "끝내기(X)", command = root.quit)
 menu.add_cascade(label = "파일(F)", menu = menu_file)
 
 #편집, 서식, 보기, 도움말
-menu.add_cascade(labe = "편집(E)")
-menu.add_cascade(labe = "서식(O)")
-menu.add_cascade(labe = "보기(V)")
-menu.add_cascade(labe = "도움말(H)")
+menu.add_cascade(label = "편집(E)")
+menu.add_cascade(label = "서식(O)")
+menu.add_cascade(label = "보기(V)")
+menu.add_cascade(label = "도움말(H)")
 
 #scrollbar
 scrollbar = Scrollbar(root)
